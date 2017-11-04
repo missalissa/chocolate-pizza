@@ -24,45 +24,63 @@ section#head1 h4 {
     align-content: right;
 }
 
-  h1 {
+h1 {
     font-family: 'Yellowtail', cursive;   
-  }
+}
 
-  h2 {
+h2 {
     font-family: 'Francois One', sans-serif;  
     font-size: 250%;
     margin-bottom: 0;
-  }
+}
 
-  h4 {
+h4 {
     font-family: 'Abel', sans-serif !important;   
     font-family: sans-serif;
     text-transform: uppercase;
     color: #888888;
     margin-top: 0;
-  }
+}
 
 
-  label {
+label {
     font-family: 'Patrick Hand', cursive;    
-  }
+}
 
-
-  hr {
+hr {
     border: 0;
     border-top: 3px double #8c8c8c;
-  }
+}
 
-  img.align-left {
+img.align-left {
     float: left;
-  }
+}
 
-  button#print {
+
+img.left {
+    float: left;
+}
+
+button#print {
     background: #ffffff;
     border: none;
-  }
+}
 
-  #title {
+#title {
     display: flex;
     justify-content: space-between;
-  }
+}
+
+article {
+    margin-bottom: 50px;
+}
+
+body {
+    background-image: url("img/list-bg.png");
+    background-repeat: no-repeat;
+    background-position: 50% 75%;
+}
+
+#footer {
+    text-align: center;    
+}
