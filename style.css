@@ -1,0 +1,68 @@
+main { 
+    width: 63.5%;
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+section#head1 h1 {
+    margin: 0;
+    font-size: 250%;
+}
+
+section#head1 h4 {
+    font-family: 'Abel', sans-serif;   
+    font-size: 75%;
+}
+
+#head2 {
+    display: inline;
+    align-content: right;
+}
+
+  h1 {
+    font-family: 'Yellowtail', cursive;   
+  }
+
+  h2 {
+    font-family: 'Francois One', sans-serif;  
+    font-size: 250%;
+    margin-bottom: 0;
+  }
+
+  h4 {
+    font-family: 'Abel', sans-serif !important;   
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #888888;
+    margin-top: 0;
+  }
+
+
+  label {
+    font-family: 'Patrick Hand', cursive;    
+  }
+
+
+  hr {
+    border: 0;
+    border-top: 3px double #8c8c8c;
+  }
+
+  img.align-left {
+    float: left;
+  }
+
+  button#print {
+    background: #ffffff;
+    border: none;
+  }
+
+  #title {
+    display: flex;
+    justify-content: space-between;
+  }
